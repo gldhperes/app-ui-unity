@@ -1,0 +1,32 @@
+.header-padding {
+    padding: 25px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.header-icon {
+    width: 29.59px;
+    height: 46.33px;
+}
+
+.black-panel {
+    background-image: url("project://database/Assets/UIToolkit/Images/Rectangle_283.png?fileID=2800000&guid=7246069fdb07e1848854380aad8bb0bf&type=3#Rectangle_283");
+    background-color: rgba(255, 255, 255, 0);
+    width: 142px;
+    height: 43px;
+    align-self: center;
+    position: absolute;
+}
+
+.buy-coins {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(22, 235, 81, 0);
+    background-image: url("project://database/Assets/UIToolkit/Images/buy_coin_btn.png?fileID=2800000&guid=313a240914a93d84d94ec4d3b9fe7a35&type=3#buy_coin_btn");
+    position: absolute;
+    top: 17px;
+    right: 0;
+    left: initial;
+}

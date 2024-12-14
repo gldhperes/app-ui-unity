@@ -1,0 +1,45 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="Card_Template" src="project://database/Assets/UIToolkit/Templates/Card_Template.uxml?fileID=9197481963319205126&amp;guid=53c8a699dc7a6f24784e5e0b30bd23a3&amp;type=3#Card_Template" />
+    <Style src="project://database/Assets/UIToolkit/USS/Defaults.uss?fileID=7433441132597879392&amp;guid=b4fed12e172e4aa49a202972789fd494&amp;type=3#Defaults" />
+    <Style src="project://database/Assets/UIToolkit/USS/Header.uss?fileID=7433441132597879392&amp;guid=f2364b4bfe507cb419464b44dc03d470&amp;type=3#Header" />
+    <Style src="project://database/Assets/UIToolkit/USS/Cards.uss?fileID=7433441132597879392&amp;guid=5c81cfc5c6f6e1b43af06ae445316007&amp;type=3#Cards" />
+    <engine:VisualElement name="ShopContainer" style="width: 100%; height: 100%; background-image: url(&quot;project://database/Assets/UIToolkit/Images/shop_background.png?fileID=2800000&amp;guid=0439971dfff8cdc4792c3c13b1d520f6&amp;type=3#shop_background&quot;); -unity-background-scale-mode: stretch-to-fill; flex-grow: 0; background-position-x: center 0; background-position-y: center 0; background-size: cover; background-color: rgba(255, 255, 255, 0); overflow: visible; align-items: center; padding-bottom: 12px;">
+        <Unity.AppUI.UI.Heading name="shop-header" class="header-padding flex-class" style="width: 100%; height: 110px; background-image: url(&quot;project://database/Assets/UIToolkit/Images/Rectangle.png?fileID=2800000&amp;guid=f21c9e413514e794e9249fe046fb2703&amp;type=3#Rectangle&quot;); justify-content: space-between; padding-top: 0; padding-bottom: 11px;">
+            <engine:VisualElement name="sh-div1" class="flex-class" style="background-color: rgba(0, 0, 0, 0); justify-content: space-between; align-self: center; align-content: flex-end; width: 280px; height: 100%;">
+                <Unity.AppUI.UI.IconButton name="back-button" class="header-icon" style="background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/UIToolkit/Images/Back_Btn.png?fileID=2800000&amp;guid=78723a4bec503e443a57e3d9b2f39c63&amp;type=3#Back_Btn&quot;);" />
+                <Unity.AppUI.UI.Text name="shop-text" text="SHOP" class="default-text" style="background-color: rgba(0, 0, 0, 0); text-shadow: 0 0 0 rgb(0, 0, 0); -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 3px; align-self: center; justify-content: center; align-items: center;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="sh-div2" class="flex-class" style="flex-grow: 0; background-color: rgba(255, 0, 0, 0); width: auto; height: 100%; align-items: center; justify-content: flex-end;">
+                <Unity.AppUI.UI.AvatarGroup name="coins-section" class="flex-class" style="height: 100%; align-self: center; align-content: auto; justify-content: space-between; width: 306px;">
+                    <engine:VisualElement name="tickets" class="flex-class" style="flex-grow: 1; align-items: center; height: 100%; align-self: center; width: 170px; align-content: center;">
+                        <Unity.AppUI.UI.Avatar name="t-black-panel" class="flex-class black-panel">
+                            <Unity.AppUI.UI.Text text="30" name="gcoin-value" style="font-size: 36px; color: rgb(255, 255, 255); justify-content: center; align-items: center; -unity-text-align: middle-center; white-space: normal; -unity-font-style: normal; letter-spacing: -10px; width: auto; height: 100%;" />
+                        </Unity.AppUI.UI.Avatar>
+                        <Unity.AppUI.UI.Avatar name="t-coin-icon" tabindex="0" style="width: 73px; height: 83px; background-image: url(&quot;project://database/Assets/UIToolkit/Images/Ticket.png?fileID=2800000&amp;guid=c40e2120c61858e43bae2a86df831036&amp;type=3#Ticket&quot;); left: -12px; -unity-background-scale-mode: scale-and-crop; position: absolute; top: 4px;" />
+                        <Unity.AppUI.UI.Avatar name="t-buy-btn" class="flex-class buy-coins">
+                            <Unity.AppUI.UI.Text text="+" name="plus-text1" style="font-size: 36px; color: rgb(20, 117, 47); justify-content: center; align-items: center; -unity-text-align: middle-center; white-space: normal; -unity-font-style: normal; letter-spacing: 0; width: 100%; height: 100%; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(0, 0, 0); transform-origin: left top; top: -7px; align-self: center; align-content: center;" />
+                        </Unity.AppUI.UI.Avatar>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="gcoins" class="flex-class" style="flex-grow: 1; align-items: center; height: 100%; align-self: center; width: 170px; align-content: center;">
+                        <Unity.AppUI.UI.Avatar name="gc-black-panel" class="flex-class black-panel" style="background-image: url(&quot;project://database/Assets/UIToolkit/Images/Rectangle_283.png?fileID=2800000&amp;guid=7246069fdb07e1848854380aad8bb0bf&amp;type=3#Rectangle_283&quot;); background-color: rgba(255, 255, 255, 0); width: 142px; height: 43px; align-self: center; position: absolute;">
+                            <Unity.AppUI.UI.Text text="3000" name="gcoin-value" style="font-size: 36px; color: rgb(255, 255, 255); justify-content: center; align-items: center; -unity-text-align: middle-center; white-space: normal; -unity-font-style: normal; letter-spacing: -10px; width: auto; height: 100%;" />
+                        </Unity.AppUI.UI.Avatar>
+                        <Unity.AppUI.UI.Avatar name="gc-coin-icon" tabindex="0" style="width: 55px; height: 56px; background-image: url(&quot;project://database/Assets/UIToolkit/Images/GoldenCoin.png?fileID=2800000&amp;guid=28330b0ec9bbe7f419a8b6c23ddab6bc&amp;type=3#GoldenCoin&quot;); left: -16px; -unity-background-scale-mode: scale-and-crop; position: absolute;" />
+                        <Unity.AppUI.UI.Avatar name="gc-buy-btn" class="flex-class buy-coins" style="width: 40px; height: 40px; background-color: rgba(22, 235, 81, 0); background-image: url(&quot;project://database/Assets/UIToolkit/Images/buy_coin_btn.png?fileID=2800000&amp;guid=313a240914a93d84d94ec4d3b9fe7a35&amp;type=3#buy_coin_btn&quot;); position: absolute; top: 17px; right: 0; left: initial;">
+                            <Unity.AppUI.UI.Text text="+" name="plus-text1" style="font-size: 36px; color: rgb(20, 117, 47); justify-content: center; align-items: center; -unity-text-align: middle-center; white-space: normal; -unity-font-style: normal; letter-spacing: 0; width: 100%; height: 100%; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(0, 0, 0); transform-origin: left top; top: -7px; align-self: center; align-content: center;" />
+                        </Unity.AppUI.UI.Avatar>
+                    </engine:VisualElement>
+                </Unity.AppUI.UI.AvatarGroup>
+                <Unity.AppUI.UI.IconButton name="home-button" style="width: 41px; height: 30px; background-image: url(&quot;project://database/Assets/Samples/App%20UI/1.1.1/UI%20Kit/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&amp;guid=993effd90b723914aa3d1d0650f5bbaf&amp;type=3#arrow-up@2x&quot;);" />
+            </engine:VisualElement>
+        </Unity.AppUI.UI.Heading>
+        <engine:VisualElement name="offers-container" class="flex-class" style="flex-grow: 0; width: 100%; height: 93px; align-self: center; align-content: flex-start; justify-content: flex-start; overflow: hidden;">
+            <Unity.AppUI.UI.Avatar name="offers-content" class="flex-class" style="height: 100%; background-image: url(&quot;project://database/Assets/UIToolkit/Images/Rectangle_288.png?fileID=2800000&amp;guid=33937424a8a3d4d4fb3118b6c29b4cd6&amp;type=3#Rectangle_288&quot;); width: 376px; left: -86px;">
+                <Unity.AppUI.UI.Text name="offers-text" text="OFFERS" class="default-text" style="height: 100%; width: 240px; font-size: 51px; right: -39px; -unity-text-align: middle-center; -unity-text-outline-width: 3px; -unity-text-outline-color: rgb(0, 0, 0); letter-spacing: -9px;" />
+            </Unity.AppUI.UI.Avatar>
+        </engine:VisualElement>
+        <engine:VisualElement name="main-container" class="flex-class" style="flex-grow: 0; width: 100%; height: 828px; background-color: rgba(38, 0, 0, 0.33); padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; align-self: auto; justify-content: flex-start; align-items: center; align-content: auto;">
+            <engine:Instance template="Card_Template" name="Card_Template" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

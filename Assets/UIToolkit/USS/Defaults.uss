@@ -1,0 +1,35 @@
+.flex-class {
+    flex-grow: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.default-size {
+    width: 100%;
+    height: 100%;
+}
+
+.default-text {
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    -unity-font-style: bold;
+}
+
+.card-item {
+    position: relative;
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    align-content: center;
+    width: 432px;
+    height: 471px;
+    align-items: auto;
+    align-self: center;
+    flex-shrink: 1;
+    background-image: none;
+}
