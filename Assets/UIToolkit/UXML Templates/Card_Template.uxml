@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkit/USS/Defaults.uss?fileID=7433441132597879392&amp;guid=b4fed12e172e4aa49a202972789fd494&amp;type=3#Defaults" />
+    <Style src="project://database/Assets/UIToolkit/USS/Cards.uss?fileID=7433441132597879392&amp;guid=5c81cfc5c6f6e1b43af06ae445316007&amp;type=3#Cards" />
+    <engine:VisualElement class="flex-class card-container" style="background-color: rgba(0, 0, 0, 0.6); width: 200px; height: 300px; align-self: auto; max-width: 400px; max-height: 580px; min-width: 200px; min-height: 275px;">
+        <engine:VisualElement class="flex-class card-content" style="flex-grow: 1; align-self: auto; background-color: rgba(255, 161, 161, 0.2); height: 95%;">
+            <Unity.AppUI.UI.Icon class="card-union" style="width: 100%; height: 70%; align-content: auto; justify-content: center;" />
+            <Unity.AppUI.UI.Avatar class="card-item" />
+        </engine:VisualElement>
+        <Unity.AppUI.UI.Avatar class="timer-panel" style="left: auto; right: 0; top: 2%; width: 40%; height: 6%; max-width: 200px; max-height: 50px; min-width: 90px; min-height: 20px; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;" />
+        <Unity.AppUI.UI.Button name="Button" class="card-buy-btn" style="top: auto; bottom: 2%; min-width: 40px; width: 100px; height: 40px; max-width: 200px; align-content: auto; max-height: 70px; min-height: 20px;" />
+    </engine:VisualElement>
+</engine:UXML>
