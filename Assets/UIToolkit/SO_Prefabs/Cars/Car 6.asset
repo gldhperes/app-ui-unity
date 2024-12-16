@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4c8ac981e108bb49a355887588a676a, type: 3}
-  m_Name: Car 1
+  m_Name: Car 6
   m_EditorClassIdentifier: 
-  car_img: {fileID: 2800000, guid: 63d19369d0d164c4fb158e6b3b9fe95f, type: 3}
-  card_img: {fileID: 2800000, guid: 4ae72444b8655d64c90fe6923f662480, type: 3}
-  card_union_img: {fileID: 2800000, guid: 85eeede2e4743fa40b9562c966d29296, type: 3}
-  card_rarity_img: {fileID: 2800000, guid: 500f366df436e764e8194710d069bed5, type: 3}
-  card_info_img: {fileID: 2800000, guid: 8765c4b04d4672a48b0cd968da25357e, type: 3}
+  car_img: {fileID: 2800000, guid: 4549020501c317041a2e58a74f9f4737, type: 3}
+  card_img: {fileID: 2800000, guid: 58959df321bd8e948b458348d8fd4f3e, type: 3}
+  card_union_img: {fileID: 2800000, guid: c08b78bff58453f4695e18033eb6df95, type: 3}
+  card_rarity_img: {fileID: 2800000, guid: d832c68bc0c64b044a219d2b8d15d0b8, type: 3}
+  card_info_img: {fileID: 2800000, guid: c99fa44b264b67f45b74023614f46b17, type: 3}
   card_price_img: {fileID: 2800000, guid: 6b5032cf271416d4e852f52cc5fbe96e, type: 3}
-  raridade: 3
+  raridade: 5

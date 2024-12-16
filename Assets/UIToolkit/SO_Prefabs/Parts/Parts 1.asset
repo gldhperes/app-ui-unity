@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4c8ac981e108bb49a355887588a676a, type: 3}
-  m_Name: Car 1
+  m_Script: {fileID: 11500000, guid: 0504bc19c69c3524796eb9ce77103c23, type: 3}
+  m_Name: Parts 1
   m_EditorClassIdentifier: 
-  car_img: {fileID: 2800000, guid: 63d19369d0d164c4fb158e6b3b9fe95f, type: 3}
+  parts_img: {fileID: 2800000, guid: 688a869fd4dc7ba4398ddba03b144ede, type: 3}
   card_img: {fileID: 2800000, guid: 4ae72444b8655d64c90fe6923f662480, type: 3}
   card_union_img: {fileID: 2800000, guid: 85eeede2e4743fa40b9562c966d29296, type: 3}
   card_rarity_img: {fileID: 2800000, guid: 500f366df436e764e8194710d069bed5, type: 3}
   card_info_img: {fileID: 2800000, guid: 8765c4b04d4672a48b0cd968da25357e, type: 3}
   card_price_img: {fileID: 2800000, guid: 6b5032cf271416d4e852f52cc5fbe96e, type: 3}
-  raridade: 3

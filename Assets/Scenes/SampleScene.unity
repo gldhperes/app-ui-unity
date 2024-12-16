@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 74533796}
   - component: {fileID: 74533795}
   - component: {fileID: 74533797}
+  - component: {fileID: 74533798}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -183,6 +184,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00586e554ea3ddd49a6b6de4096f123d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &74533798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74533794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a55b929d3eb6b4587526bfb585da74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards_template: {fileID: 9197481963319205126, guid: 53c8a699dc7a6f24784e5e0b30bd23a3, type: 3}
+  cars:
+  - {fileID: 11400000, guid: bd912030bfb78bc44a62155cc011713b, type: 2}
+  - {fileID: 11400000, guid: 18365bbbc13123440b4a4780b17b7b24, type: 2}
+  - {fileID: 11400000, guid: bf712088aba22494793395aa458573a9, type: 2}
+  - {fileID: 11400000, guid: 22c528ac78e045c499d2d399aa953523, type: 2}
+  - {fileID: 11400000, guid: d0980c814201e3e43a5d40fde6159a96, type: 2}
+  - {fileID: 11400000, guid: af7dc12704b5eab409f8f1d80caa21cd, type: 2}
+  - {fileID: 11400000, guid: e5db057b31dc9d449a145d7ba2abaf59, type: 2}
+  currency:
+  - {fileID: 11400000, guid: 761b0f627da11204d94d58a487d95664, type: 2}
+  - {fileID: 11400000, guid: 0d4699a96d1ec0f4fb4ef1d6153783d0, type: 2}
+  - {fileID: 11400000, guid: db585effcfebfc44db8875540328d9a0, type: 2}
+  parts:
+  - {fileID: 11400000, guid: 5b79efcc8202b954c84a07317694a457, type: 2}
+  - {fileID: 11400000, guid: 3ce8bcd706575ba4cbdebb9e80a921f4, type: 2}
+  - {fileID: 11400000, guid: 596cbd5c4e9ae014ca661c435df5bc85, type: 2}
+  - {fileID: 11400000, guid: b4b895865378e064a911cca3de987ebd, type: 2}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
