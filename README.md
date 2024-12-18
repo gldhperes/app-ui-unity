@@ -1,4 +1,7 @@
 ## Organização das pastas
+- Coloquei os arquivos pertinentes ao projeto na pasta UIToolkit dentro de assests.
+- Separei por categorias, como: fontes, imagens, scripts, SO_prefabs, USS, UXML Templates.
+- - asf
 
 ## Explicação Design
  - No Header coloquei para seus elementos se organizassem no centro e inseri duas "divs" uma com tamanho fixo "div1" e outra com tamanho 100% "div2", isso possibilita um espaçao entre  ambas mesmo que a tela diminua um pouco.
