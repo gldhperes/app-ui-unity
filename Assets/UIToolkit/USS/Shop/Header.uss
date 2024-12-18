@@ -12,7 +12,7 @@
 }
 
 .black-panel {
-    background-image: url("project://database/Assets/UIToolkit/Images/Rectangle_283.png?fileID=2800000&guid=7246069fdb07e1848854380aad8bb0bf&type=3#Rectangle_283");
+    background-image: url("project://database/Assets/UIToolkit/Images/commons/Rectangle_283.png?fileID=2800000&guid=7246069fdb07e1848854380aad8bb0bf&type=3#Rectangle_283");
     background-color: rgba(255, 255, 255, 0);
     width: 120px;
     height: 30px;
@@ -29,19 +29,11 @@
     top: 4px;
 }
 
-.default-text {
-    font-size: 30px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 0 rgb(0, 0, 0);
-    -unity-font-style: bold;
-}
-
 .buy-coins {
     width: 30px;
     height: 30px;
     background-color: rgba(22, 235, 81, 0);
-    background-image: url("project://database/Assets/UIToolkit/Images/buy_coin_btn.png?fileID=2800000&guid=313a240914a93d84d94ec4d3b9fe7a35&type=3#buy_coin_btn");
+    background-image: url("project://database/Assets/UIToolkit/Images/commons/buy_coin_btn.png?fileID=2800000&guid=313a240914a93d84d94ec4d3b9fe7a35&type=3#buy_coin_btn");
     position: absolute;
     top: 17px;
     right: 0;

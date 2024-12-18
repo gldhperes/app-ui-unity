@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c8ac981e108bb49a355887588a676a, type: 3}
   m_Name: Car 7
   m_EditorClassIdentifier: 
-  car_img: {fileID: 2800000, guid: ddf084a771213594f931b40eac77a1e4, type: 3}
+  item_img: {fileID: 2800000, guid: 14de5700c0414a041952f042d666d607, type: 3}
   card_img: {fileID: 2800000, guid: 06b2c23267b8a2147ba27ac902dc1323, type: 3}
   card_union_img: {fileID: 2800000, guid: 88915bf5854b1674f9eb7bf94b386519, type: 3}
   card_rarity_img: {fileID: 2800000, guid: 0b88c473d6e87874783f6931efe4d111, type: 3}
   card_info_img: {fileID: 2800000, guid: e168cd89f9d23e441833417cb10ccf37, type: 3}
   card_price_img: {fileID: 2800000, guid: 7840fab99c6499a478dc65aa2ec52bc7, type: 3}
-  raridade: 4

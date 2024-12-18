@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0504bc19c69c3524796eb9ce77103c23, type: 3}
   m_Name: Parts 2
   m_EditorClassIdentifier: 
-  parts_img: {fileID: 2800000, guid: e935409546238a143932951e537de279, type: 3}
+  item_img: {fileID: 2800000, guid: e935409546238a143932951e537de279, type: 3}
   card_img: {fileID: 2800000, guid: 0c13096098f22fc4f9fa49f6607b6dcd, type: 3}
-  card_union_img: {fileID: 0}
-  card_rarity_img: {fileID: 0}
-  card_info_img: {fileID: 0}
-  card_price_img: {fileID: 0}
+  card_union_img: {fileID: 2800000, guid: 7205ed84f5d1dfc43b3e9e6ca7238bcb, type: 3}
+  card_rarity_img: {fileID: 2800000, guid: 039b3e9b703401d4a8d7c5818679a03d, type: 3}
+  card_info_img: {fileID: 2800000, guid: 1a5fb4d1a269a2a4c85827b7b054d8fc, type: 3}
+  card_price_img: {fileID: 2800000, guid: 6b5032cf271416d4e852f52cc5fbe96e, type: 3}
