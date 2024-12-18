@@ -1,5 +1,5 @@
 ## Organização das pastas
-- Coloquei os arquivos pertinentes ao projeto na pasta UIToolkit dentro de assests.
+- Coloquei os arquivos pertinentes ao projeto na pasta UIToolkit dentro de assets.
 - Separei por categorias, como: fontes, imagens, scripts, SO_prefabs, USS, UXML Templates.
  - Fontes: Fonte usada nos textos.
  - Imagens: Imagens dos itens.
